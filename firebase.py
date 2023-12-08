@@ -1,8 +1,6 @@
 import pyrebase
 from secret import firebase_config
 
-firebase_config = firebase_config
-
 firebase = pyrebase.initialize_app(firebase_config)
 db = firebase.database()
 

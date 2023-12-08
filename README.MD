@@ -1,4 +1,5 @@
-# exposer
-Simple Discord Bot made in Python.
+# Exposer
+Simple Discord Bot made in Python. Made for personal use.
 ## Features
-Logs every deleted message and stores them in a Firebase DB.
+- Stores deleted messages in a Firebase Realtime DB.
+- Get user's deleted messages by mention.

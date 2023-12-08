@@ -8,7 +8,6 @@ intents.message_content = True
 
 client = discord.Client(intents=intents)
 prefix = "?"
-ownerID = ownerID
 
 def normalize(p:str):
     return p.encode('utf-16','surrogatepass').decode('utf-16')
